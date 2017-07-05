@@ -133,11 +133,11 @@ namespace WeekTwoArrays
             //create array of students names in random order. order names using sort method. print first and last students name
             string[] studentNames = { "Greg", "Billy", "Frank", "Michael", "Steven", "Marissa" };
             Array.Sort(studentNames);
-            Console.WriteLine(studentNames[0] + " " + (studentNames[5]));
+            Console.WriteLine(studentNames[0] + " " + (studentNames[studentNames.Length - 1]));
             //ask 10 people for favorite number and create array for those numbers. order numbers using sort. print first and last
             int[] favoriteNumber = { 4, 11, 21, 12, 5, 100, 2, 33, 17, 57 };
             Array.Sort(favoriteNumber);
-            Console.WriteLine(favoriteNumber[0] + " " + (favoriteNumber[9]));
+            Console.WriteLine(favoriteNumber[0] + " " + (favoriteNumber[favoriteNumber.Length -1]));
 
 
 
