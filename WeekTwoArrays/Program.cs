@@ -50,19 +50,26 @@ namespace WeekTwoArrays
 
             //starting with int array to create space for 21 students
             //dataType[] nameOfArray = new dataType[#ofElements];
-            int[] numberOfSeats = new int[21];
-            string[] studentsInClass = new string[21];
+            //int[] numberOfSeats = new int[21];
+            //string[] studentsInClass = new string[21];
 
-            //nameOfArray[index] = "Element";
-            studentsInClass[0] = "Jordan";
+            ////nameOfArray[index] = "Element";
+            //studentsInClass[0] = "Jordan";
 
-            Console.WriteLine("Please eneter in the name of the next student.");
-            studentsInClass[1] = Console.ReadLine();
-
-            Console.WriteLine("Please enter the age of the person in the first seat.");
-            int[] ageOfStudents = new int[21];
-            ageOfStudents[0] = int.Parse(Console.ReadLine());
-
+            //Console.WriteLine("Please eneter in the name of the next student.");
+            //studentsInClass[1] = Console.ReadLine();
+            //Console.WriteLine("The student in the second seat is {0}.", studentsInClass[1]);
+            ////ask user for input
+            //Console.WriteLine("Please enter the age of the person in the first seat.");
+            ////Create new int array with 21 spots and call it ageOfStudents
+            //int[] ageOfStudents = new int[21];
+            ////assign the value of the int at the 0 index of ageOfStudents to...
+            ////.. the user's input converted into an int
+            //ageOfStudents[0] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The age of the student in the first seat is " + ageOfStudents[0]);
+            ////Create new string variable and set it equal to the int at the index of 0 ...
+            ////and convert it into a string
+            //string firstIndex = ageOfStudents[0].ToString();
 
 
 
