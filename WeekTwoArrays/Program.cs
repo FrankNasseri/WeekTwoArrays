@@ -48,6 +48,24 @@ namespace WeekTwoArrays
             ////different way of printing on one line, which prints as J, M, C, F
             //Console.WriteLine("\n{0}, {1}, {2}, {3}", className[0], className[1], className[2], className[3]);
 
+            //starting with int array to create space for 21 students
+            //dataType[] nameOfArray = new dataType[#ofElements];
+            int[] numberOfSeats = new int[21];
+            string[] studentsInClass = new string[21];
+
+            //nameOfArray[index] = "Element";
+            studentsInClass[0] = "Jordan";
+
+            Console.WriteLine("Please eneter in the name of the next student.");
+            studentsInClass[1] = Console.ReadLine();
+
+            Console.WriteLine("Please enter the age of the person in the first seat.");
+            int[] ageOfStudents = new int[21];
+            ageOfStudents[0] = int.Parse(Console.ReadLine());
+
+
+
+
 
         }
     }
