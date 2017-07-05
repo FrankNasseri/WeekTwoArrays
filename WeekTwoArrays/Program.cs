@@ -96,11 +96,22 @@ namespace WeekTwoArrays
 
             //IndexOf is a method used to search an array for specified value and returns...
             //..the index position of the first matching value found.
-            int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
-            Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
-            //LastIndexOf is a method used to search an array for a specified value and returns...
-            //..the index position of the last matching value found
-            Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            ////LastIndexOf is a method used to search an array for a specified value and returns...
+            ////..the index position of the last matching value found
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+
+            ////Reverse Method
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+
+
+
 
 
 
