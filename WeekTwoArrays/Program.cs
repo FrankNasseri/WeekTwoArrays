@@ -71,6 +71,36 @@ namespace WeekTwoArrays
             ////and convert it into a string
             //string firstIndex = ageOfStudents[0].ToString();
 
+            ////array for resturants in a mall
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(restaurantsInMall.Length);
+
+            ////for review
+            ////decalre and not initialize
+            //int[] myIntArrayAgain;
+            ////declare and initailize an array when i know the elements
+            //char[] lettersInFirstName = { 'D', 'A', 'N', 'I', 'E', 'L' };
+            ////declare and initialize an array when i dont know the elements but i konw how many
+            //string[] variableName = new string[42];
+
+            //To practice using .Length, create a char array of the letters in your middle name..
+            ////...and print number of char's to the Console
+            //char[] lettersInMiddleName = { 'A', 'r', 'm', 'o', 'n', 'd' };
+            //Console.WriteLine(lettersInMiddleName.Length);
+
+            ////Declare and initialize a string array.
+            ////using the .Length property, print the SECOND TO LAST element in the array
+            //string[] colors = { "Red", "White", "Green", "Blue", "Orange" };
+            //int numColor = colors.Length;
+            //Console.WriteLine(colors[numColor - 2]);
+
+            //IndexOf is a method used to search an array for specified value and returns...
+            //..the index position of the first matching value found.
+            int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            //LastIndexOf is a method used to search an array for a specified value and returns...
+            //..the index position of the last matching value found
+            Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
 
 
 
