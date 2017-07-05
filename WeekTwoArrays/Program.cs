@@ -110,6 +110,36 @@ namespace WeekTwoArrays
             //Console.WriteLine(palindromeNumbers[0]);
             //Console.WriteLine(palindromeNumbers[2]);
 
+            //Sort Method
+            //Will sort numbers in array from lowest to highest
+            //Will sort char's and strings in alphabetical order A-Z
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black", };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            //Do It practice problems
+            ////declare and initialize a string array of first names. choose name to find and print IndexOf
+            //string[] firstNames = { "Frank", "Mike", "Jerome", "Steven", "Brian" };
+            //Console.WriteLine(Array.IndexOf(firstNames, "Frank"));
+            //Create array of lucky numbers. each number should repeat once. choose a lucky number, find and print lastIndexOf
+            //int[] luckyNumbers = { 4, 6, 8, 11, 12, 8, 4, 11, 6, 12 };
+            //Console.WriteLine(Array.LastIndexOf(luckyNumbers, 11));
+            ////create array of alphabet characters. print the first index of the array. now reverse the array and print first indexof
+            //char [] letters = { 'A', 'B', 'C', 'E', 'F' };
+            //Console.WriteLine(letters[0]);
+            //Array.Reverse(letters);
+            //Console.WriteLine(letters[0]);
+            //create array of students names in random order. order names using sort method. print first and last students name
+            string[] studentNames = { "Greg", "Billy", "Frank", "Michael", "Steven", "Marissa" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0] + " " + (studentNames[5]));
+            //ask 10 people for favorite number and create array for those numbers. order numbers using sort. print first and last
+            int[] favoriteNumber = { 4, 11, 21, 12, 5, 100, 2, 33, 17, 57 };
+            Array.Sort(favoriteNumber);
+            Console.WriteLine(favoriteNumber[0] + " " + (favoriteNumber[9]));
+
+
 
 
 
